@@ -1,0 +1,72 @@
+#lblCounter{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+#myDiv{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+#innerDiv{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+#outerDiv{
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+}
+#myImg{
+    width: 300px;
+    /*display: none;*/
+}
+#myCanvas{
+    border: 1px solid black;
+    background-color: skyblue;
+}
+.btntimer{
+    width: 82px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 8%;
+    background-color: rgb(145, 48, 96);
+    color: white;
+    cursor: pointer;
+    font-family: consolas,monospace;
+}
+#timeDiv{
+    font-size: 75px;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+#timeContainer{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: rgb(27, 29, 24);
+
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
